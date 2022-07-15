@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Counter from './components/Counter';
-import LoginUseState from './components/LoginUseState';
-import LoginUseReducer from './components/LoginUseReducer';
+// import Counter from './components/Counter';
+// import LoginUseState from './components/LoginUseState';
+// import LoginUseReducer from './components/LoginUseReducer';
+import TodoListContainer, { todosContext } from './components/container/TodoListContainer'
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
         <h1>Ejemplos useReducer</h1>
         {/* <Counter/> */}
         {/* <LoginUseState/> */}
-        <LoginUseReducer/>
+        {/* <LoginUseReducer/> */}
+        <TodoListContainer/>
       </header>
     </div>
   );
